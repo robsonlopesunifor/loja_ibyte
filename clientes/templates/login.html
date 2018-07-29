@@ -1,0 +1,12 @@
+
+{{ log }}
+
+{% block content %}
+<h1>Signup</h1>
+<form class="site-form" action="{% url 'login' %}" method="post">
+    {% csrf_token %}
+    {{form}}
+    <input type="submit" value="login" >
+</form>
+{% endblock %}
+<a href="{% url 'cadastrar' %}">Se cadastrar</a>
