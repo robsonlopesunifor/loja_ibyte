@@ -32,20 +32,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/loja/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="195">
+              <caret line="124" lean-forward="true" selection-start-line="124" selection-end-line="124" />
+              <folding>
+                <element signature="e#305#314#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wsgi.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="wsgi.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/loja/wsgi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="255">
+              <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+              <folding>
+                <element signature="e#220#229#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -158,13 +164,14 @@
         <option value="$PROJECT_DIR$/produtos/views.py" />
         <option value="$PROJECT_DIR$/loja/urls.py" />
         <option value="$PROJECT_DIR$/produtos/templates/listar_componentes.html" />
+        <option value="$PROJECT_DIR$/loja/wsgi.py" />
         <option value="$PROJECT_DIR$/loja/settings.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-60" />
-    <option name="y" value="72" />
+    <option name="x" value="65" />
+    <option name="y" value="90" />
     <option name="width" value="790" />
     <option name="height" value="696" />
   </component>
@@ -280,10 +287,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-60" y="72" width="790" height="696" extended-state="0" />
-    <editor active="true" />
+    <frame x="65" y="90" width="790" height="696" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25814864" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25814864" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329806" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32920355" />
@@ -291,7 +297,7 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" weight="0.329806" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.2938053" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.2938053" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -547,17 +553,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/loja/settings.py">
+    <entry file="file://$PROJECT_DIR$/loja/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="255">
+          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+          <folding>
+            <element signature="e#220#229#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/loja/wsgi.py">
+    <entry file="file://$PROJECT_DIR$/loja/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="195">
+          <caret line="124" lean-forward="true" selection-start-line="124" selection-end-line="124" />
+          <folding>
+            <element signature="e#305#314#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
