@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3c18a39-abe2-4f6f-a603-60d65e373a8d" name="Default" comment="" />
+    <list default="true" id="d3c18a39-abe2-4f6f-a603-60d65e373a8d" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loja/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/loja/settings.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,11 +26,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="listar_componentes.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="listar_componentes.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/produtos/templates/listar_componentes.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="220">
               <caret line="18" column="56" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/loja/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="79">
+              <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+              <folding>
+                <element signature="e#305#314#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -58,15 +73,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="230">
               <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="disco_rigido.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/produtos/templates/disco_rigido.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="16" column="67" selection-start-line="16" selection-end-line="16" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -148,7 +154,6 @@
         <option value="$PROJECT_DIR$/pedidos/templete/listagem.html" />
         <option value="$PROJECT_DIR$/produtos/form.py" />
         <option value="$PROJECT_DIR$/produtos/templates/listagem.html" />
-        <option value="$PROJECT_DIR$/loja/settings.py" />
         <option value="$PROJECT_DIR$/produtos/templates/disco_rigido.html" />
         <option value="$PROJECT_DIR$/produtos/templates/fone.html" />
         <option value="$PROJECT_DIR$/produtos/templates/gabinete.html" />
@@ -159,12 +164,13 @@
         <option value="$PROJECT_DIR$/produtos/views.py" />
         <option value="$PROJECT_DIR$/loja/urls.py" />
         <option value="$PROJECT_DIR$/produtos/templates/listar_componentes.html" />
+        <option value="$PROJECT_DIR$/loja/settings.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="532" />
-    <option name="y" value="24" />
+    <option name="x" value="609" />
+    <option name="y" value="37" />
     <option name="width" value="790" />
     <option name="height" value="696" />
   </component>
@@ -280,7 +286,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="532" y="24" width="790" height="696" extended-state="0" />
+    <frame x="609" y="37" width="790" height="696" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25814864" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329806" />
@@ -290,7 +297,7 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" weight="0.329806" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.33097345" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.36460176" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -456,13 +463,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/loja/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="62" column="49" selection-start-line="62" selection-start-column="49" selection-end-line="62" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/produtos/templates/listagem.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -550,6 +550,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="18" column="56" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loja/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+          <folding>
+            <element signature="e#305#314#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
