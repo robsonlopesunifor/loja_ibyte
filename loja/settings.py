@@ -27,7 +27,7 @@ SECRET_KEY = 'gaj*7u8vcdj3$%#sb5$4iq1q*n#g56^bomc*p^fi^o&i-z=2#-'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [loja_ibyte_heroku.herokuapp.com]
+ALLOWED_HOSTS = ['loja-ibyte-heroku.herokuapp.com']
 
 
 # Application definition

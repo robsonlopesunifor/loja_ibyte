@@ -1,1 +1,1 @@
-web: gunicorn loja_ibyte_heroku.wsgi --log-file -
+web: gunicorn loja-ibyte-heroku.wsgi --log-file -
