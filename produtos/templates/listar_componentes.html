@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <a href="{% url 'processador' %}">Cadastrar processador</a>
+    <ul>
+    {% for componente in componentes.processador %}
+        <li>
+               Componente: {{ componente.nome }} - estoque: {{ componente.estoque }}
+        </li>
+    {% endfor %}
+    </ul>
+    <a href="{% url 'memoria_ram' %}">Cadastrar memoria ram</a>
+    <ul>
+    {% for componente in componentes.memoria_ram %}
+        <li>
+               Componente: {{ componente.nome }} - estoque: {{ componente.estoque }}
+        </li>
+    {% endfor %}
+    </ul>
+    <a href="{% url 'disco_rigido' %}">Cadastrar disco rigido</a>
+    <ul>
+    {% for componente in componentes.disco_rigido %}
+        <li>
+               Componente: {{ componente.nome }} - estoque: {{ componente.estoque }}
+        </li>
+    {% endfor %}
+    </ul>
+    <a href="{% url 'placa_de_video' %}">Cadastrar placa de video</a>
+    <ul>
+    {% for componente in componentes.placa_de_video %}
+        <li>
+               Componente: {{ componente.nome }} - estoque: {{ componente.estoque }}
+        </li>
+    {% endfor %}
+    </ul>
+    <a href="{% url 'gabinete' %}">Cadastrar gabinete</a>
+    <ul>
+    {% for componente in componentes.gabinete %}
+        <li>
+               Componente: {{ componente.nome }} - estoque: {{ componente.estoque }}
+        </li>
+    {% endfor %}
+    </ul>
+    <a href="{% url 'placa_mae' %}">Cadastrar placa mae</a>
+    <ul>
+    {% for componente in componentes.placa_mae %}
+        <li>
+               Componente: {{ componente.nome }} - estoque: {{ componente.estoque }}
+        </li>
+    {% endfor %}
+    </ul>
+    <a href="{% url 'fone' %}">Cadastrar fone</a>
+    <ul>
+    {% for componente in componentes.fone %}
+        <li>
+               Componente: {{ componente.nome }} - estoque: {{ componente.estoque }}
+        </li>
+    {% endfor %}
+    </ul>
+</body>
+</html>
