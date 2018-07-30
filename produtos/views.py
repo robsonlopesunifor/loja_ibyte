@@ -33,10 +33,10 @@ def listar(request):
     placa_mae = Placa_mae.objects.all()
     fone = Fone.objects.all()
 
-    if len(processador) > 0:
-        for dado in processador:
-            componente['processador'].append({'nome':dado.nome,'estoque':dado.estoque})
     """
+    for dado in processador:
+        componente['processador'].append({'nome':dado.nome,'estoque':dado.estoque})
+    
     for dado in memoria_ram:
         componente['memoria_ram'].append({'nome':dado.nome,'estoque':dado.estoque})
     for dado in disco_rigido:
