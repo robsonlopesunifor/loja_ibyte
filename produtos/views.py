@@ -33,8 +33,10 @@ def listar(request):
     placa_mae = Placa_mae.objects.all()
     fone = Fone.objects.all()
 
-    for dado in processador:
-        componente['processador'].append({'nome':dado.nome,'estoque':dado.estoque})
+    if len(processador) > 0:
+        for dado in processador:
+            componente['processador'].append({'nome':dado.nome,'estoque':dado.estoque})
+    """
     for dado in memoria_ram:
         componente['memoria_ram'].append({'nome':dado.nome,'estoque':dado.estoque})
     for dado in disco_rigido:
@@ -47,7 +49,7 @@ def listar(request):
         componente['placa_mae'].append({'nome':dado.nome,'estoque':dado.estoque})
     for dado in fone:
         componente['fone'].append({'nome':dado.nome,'estoque':dado.estoque})
-
+    """
     return render(request, 'listar_componentes.html', {'componentes':componente})
 
 def processador(request):
