@@ -11,4 +11,6 @@ class PedidosForm(ModelForm):
                   'placa_de_video',
                   'gabinete',
                   'placa_mae',
-                  'fone']
+                  'fone',
+                  'cartao_id',
+                  'estatos']
