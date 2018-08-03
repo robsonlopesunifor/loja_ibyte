@@ -17,8 +17,8 @@ class Componentes(models.Model):
     gabinete = models.ForeignKey(Gabinete, on_delete=models.CASCADE)
     placa_mae = models.ForeignKey(Placa_mae, on_delete=models.CASCADE)
     fone = models.ForeignKey(Fone, on_delete=models.CASCADE)
-    cartao_id = models.CharField(max_length=200)
-    estatos = models.CharField(max_length=200)
+    cartao_id = models.CharField(max_length=200,default=0)
+    estatos = models.CharField(max_length=200,default='null')
 
     class Meta:
         verbose_name_plural = 'Componentes'

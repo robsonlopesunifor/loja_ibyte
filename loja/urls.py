@@ -1,3 +1,11 @@
+from rest_framework import routers
+from django.conf.urls import include
+from pedidos.api.viewsets import PedidosViewSet
+
+router = routers.DefaultRouter()
+router.register(r'pedidos_api',PedidosViewSet)
+
+
 from clientes import views as clientes_views
 from pedidos import views as pedidos_views
 from produtos import views as produtos_views
@@ -5,6 +13,7 @@ from django.contrib import admin
 from django.urls import path
 
 urlpatterns = [
+    path('',include(router.urls)),
     path('admin/', admin.site.urls),
     path('cadastrar/', clientes_views.cadastrar, name='cadastrar'),
     path('login/', clientes_views.login, name='login'),
